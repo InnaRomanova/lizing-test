@@ -1,0 +1,11 @@
+.amount__form-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    max-width: 279px;
+    min-height: 81px;
+}

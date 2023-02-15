@@ -1,0 +1,12 @@
+.form__discount-image {
+    margin: 25px 0 0 145px;;
+    padding: 0;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: right;
+    color: #575757;
+    position: absolute;
+}

@@ -1,0 +1,11 @@
+.form__number {
+    margin: 25px 0 0 0;
+    padding: 0;
+    background: #F3F3F4;
+    border-radius: 16px;
+    max-width: 427px;
+    min-height: 68px;
+    position: relative;
+    display: flex;
+    width: 427px;
+}

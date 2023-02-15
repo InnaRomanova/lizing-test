@@ -1,0 +1,23 @@
+.form__price {
+    width: 300px;
+    margin: 3px 0 0 25px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    color: #575757;
+    outline: none;
+    -moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+
+.form__price::-webkit-outer-spin-button,
+.form__price::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

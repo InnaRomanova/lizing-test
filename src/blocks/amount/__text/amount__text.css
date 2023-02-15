@@ -1,0 +1,12 @@
+.amount__text {
+    margin: 0;
+    padding: 0;
+    width: 279px;
+    height: 49px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #333333;
+}
