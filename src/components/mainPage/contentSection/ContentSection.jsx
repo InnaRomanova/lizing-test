@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Content() {
+function ContentSection() {
     return (
             <section className="content">
                 <h1 className="content__title">Рассчитайте стоимость автомобиля в лизинг</h1>              
@@ -8,4 +8,4 @@ function Content() {
     );
 }
 
-export default Content;
+export default ContentSection;

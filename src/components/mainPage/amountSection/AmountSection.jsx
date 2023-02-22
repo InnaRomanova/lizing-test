@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Amount() {
+function AmountSection() {
     return (
         <section className="amount">
             <form className="amount__form">
@@ -12,10 +12,13 @@ function Amount() {
                     <p className="form__label">Ежемесячный платеж от</p>
                     <h2 className="amount__text">114 455 ₽</h2>
                 </div>
+                <div className="amount__form-container">
+                    <button className="amount__button">Оставить заявку</button>
+                </div>
             </form>
 
         </section>
     );
 }
 
-export default Amount;
+export default AmountSection;

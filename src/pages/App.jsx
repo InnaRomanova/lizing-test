@@ -1,15 +1,14 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Main from '../components/Main';
+import MainPage from './mainPage';
 
 function App() {
   return (
     <div className="page">
-      <div className='page__content'>
+      <div className="page__content">
       <Routes>
-                        <Route exac path="/" element={<div>
-                            <Main />
-                        </div>} >
+                        <Route path="/" element={
+                            <MainPage />} >
                         </Route>
                         </Routes>
       </div>

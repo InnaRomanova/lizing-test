@@ -1,0 +1,19 @@
+.main {
+    margin: 0 48px 0 47px;
+    padding: 218px 0 0 0;
+    max-width: 1440px;
+}
+
+@media screen and (max-width: 1400px) {
+    .main {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .main {
+        margin-left: 36px;
+        margin-right: 36px;
+        padding-top: 68px;
+    }
+}

@@ -1,0 +1,115 @@
+.amount {
+    margin: 0;
+    padding: 52px 0;
+}
+
+.amount__currency-image {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #333333;
+}
+
+.amount__form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    gap: 180px;
+}
+
+.amount__form-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    /* max-width: 279px; */
+    min-height: 81px;
+}
+
+.amount__text {
+    margin: 0;
+    padding: 0;
+    width: 279px;
+    height: 49px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #333333;
+}
+
+.amount__application {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 12px;
+    gap: 10px;
+    position: absolute;
+    width: 426px;
+    height: 68px;
+    background: #FF9514;
+    border-radius: 40px;
+    right: 0;
+}
+
+.amount__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 426px;
+    height: 68px;
+    background: #FF9514;
+    border-radius: 40px;
+    border: none;
+    margin: 7px 0 0;
+    padding: 0 0 1px 0;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1400px) {
+    .amount {
+        padding-top: 52px;
+    }
+    .amount__form {
+        gap: 73px;
+    }
+    
+    .amount__form-container {
+        gap: 13px;
+        max-width: ;
+    }
+
+    .amount__button {
+        width: 320px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .amount {
+
+    }
+
+    .amount__form {
+        gap: 73px;
+        flex-direction: column;
+    }
+}
