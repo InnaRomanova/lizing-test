@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     gap: 180px;
 }
 
@@ -88,10 +88,11 @@
     .amount {
         padding-top: 52px;
     }
+
     .amount__form {
         gap: 73px;
     }
-    
+
     .amount__form-container {
         gap: 13px;
     }
@@ -104,12 +105,17 @@
 
 @media screen and (max-width: 1074px) {
     .amount {
-
+        padding-top: 44px;
     }
 
     .amount__form {
-        gap: 73px;
+        row-gap: 33px;
+        column-gap: 19px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .amount__button {
+        width: 345px;
     }
 }

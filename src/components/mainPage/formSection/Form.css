@@ -236,7 +236,7 @@
 
 .form__list {
     flex-direction: column;
-    gap: 39px;
+    gap: 37px;
 }
 
 .form__item {
@@ -245,7 +245,7 @@
 
 .form__number {
     /* max-width: 696px; */
-    margin-top: 23px;
+    margin-top: 26px;
 }
 
 .form__currency {
