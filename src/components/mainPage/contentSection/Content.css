@@ -1,0 +1,25 @@
+.content {
+    margin: 0;
+    padding: 0;
+}
+
+.content__title {
+    margin: 0;
+    padding: 0;
+    max-width: 753px;
+    min-height: 98px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+}
+
+@media screen and (max-width: 699px) {
+    .content__title {
+        min-height: 124px;
+        font-size: 34px;
+        width: 100%;
+        margin-left: 1px;
+    }
+}
