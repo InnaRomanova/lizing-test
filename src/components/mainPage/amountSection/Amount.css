@@ -29,8 +29,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 13px;
-    /* max-width: 279px; */
-    min-height: 81px;
+    height: 81px;
 }
 
 .amount__text {
@@ -117,5 +116,35 @@
 
     .amount__button {
         width: 345px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .amount {
+        padding-top: 25px;
+    }
+
+    .amount__form {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 29px;
+    }
+
+    .amount__form-container {
+        gap: 3px;
+        height: 41px;
+    }
+
+    .amount__text {
+        font-size: 22px;
+        line-height: 91%;
+        height: 20px;
+    }
+
+    .amount__button {
+        font-size: 22px;
+        line-height: 91%;
+        width: 100%;
+        min-height: 60px;
+        margin-top: 3px;
     }
 }

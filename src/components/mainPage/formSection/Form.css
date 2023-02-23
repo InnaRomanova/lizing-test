@@ -229,36 +229,93 @@
 }
 
 @media screen and (max-width: 1074px) {
-.form__container {
-    width: 100%;
-    margin-top: 41px;
+    .form__container {
+        width: 100%;
+        margin-top: 41px;
+    }
+
+    .form__list {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .form__item {
+        width: 100%;
+    }
+
+    .form__number {
+        margin-top: 26px;
+    }
+
+    .form__currency {
+        margin-top: 0;
+        margin-left: 24px;
+        max-width: 696px;
+    }
+
+    .form__input-slider {
+        max-width: 648px;
+    }
+
+    .form__months {
+        margin-left: 24px;
+    }
 }
 
-.form__list {
-    flex-direction: column;
-    gap: 37px;
-}
+@media screen and (max-width: 699px) {
+    .form__container {
+        margin-top: 28px;
+    }
 
-.form__item {
-    width: 100%;
-}
+    .form__list {
+        gap: 24px
+    }
 
-.form__number {
-    /* max-width: 696px; */
-    margin-top: 26px;
-}
+    .form__label {
+        font-size: 14px;
+        line-height: 136%;
+    }
 
-.form__currency {
-    margin-top: 0;
-    margin-left: 24px;
-    max-width: 696px;
-}
+    .form__number {
+        margin-top: 9px;
+        min-height: 60px;
+    }
 
-.form__input-slider {
-    max-width: 648px;
-}
+    .form__currency {
+        width: 100%;
+        font-size: 22px;
+        line-height: 91%;
+        margin-left: 20px;
+    }
 
-.form__months {
-    margin-left: 24px;
-}
+    .form__currency-contribution {
+        margin-left: 110px;
+    }
+
+    .form__currency-image {
+        width: 15px;
+    }
+
+    .form__discount {
+        width: 15px;
+        margin-top: 5px;
+        padding-left: 56px;
+        padding-bottom: 14px;
+    }
+
+    .form__input-slider {
+        width: 100%;
+        margin-top: 58px;
+    }
+
+    .form__months {
+        font-size: 22px;
+        line-height: 91%;
+        margin-left: 21px;
+    }
+
+    .form__discount-image {
+        font-size: 22px;
+        line-height: 91%;
+    }
 }

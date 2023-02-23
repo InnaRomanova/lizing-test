@@ -29,3 +29,11 @@
         padding-top: 67px;
     }
 }
+
+@media screen and (max-width: 699px) {
+    .page__content {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 47px;
+    }
+}
