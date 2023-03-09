@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lizing-test/static/css/main.6822498f.css",
-    "main.js": "/lizing-test/static/js/main.8ed625a4.js",
+    "main.css": "/lizing-test/static/css/main.93083b35.css",
+    "main.js": "/lizing-test/static/js/main.ea75b8db.js",
     "static/media/Nekst-Black.eot": "/lizing-test/static/media/Nekst-Black.5fc4621c869412e7e801.eot",
     "static/media/Nekst-Black.ttf": "/lizing-test/static/media/Nekst-Black.dffaebf93d38d4c41536.ttf",
     "static/media/Gilroy-Regular.eot": "/lizing-test/static/media/Gilroy-Regular.19055ba082a9f78262f6.eot",
@@ -14,11 +14,11 @@
     "static/media/month.svg": "/lizing-test/static/media/month.acc118d704245444dd7d042a9a4aaf32.svg",
     "index.html": "/lizing-test/index.html",
     "static/media/currency.svg": "/lizing-test/static/media/currency.dd242dfa23516838bdb852c5a1517fd5.svg",
-    "main.6822498f.css.map": "/lizing-test/static/css/main.6822498f.css.map",
-    "main.8ed625a4.js.map": "/lizing-test/static/js/main.8ed625a4.js.map"
+    "main.93083b35.css.map": "/lizing-test/static/css/main.93083b35.css.map",
+    "main.ea75b8db.js.map": "/lizing-test/static/js/main.ea75b8db.js.map"
   },
   "entrypoints": [
-    "static/css/main.6822498f.css",
-    "static/js/main.8ed625a4.js"
+    "static/css/main.93083b35.css",
+    "static/js/main.ea75b8db.js"
   ]
 }
