@@ -1,25 +1,29 @@
 import React from 'react';
 import currencyImg from '../../../images/currency.svg';
-import discountImg from '../../../images/discount.svg';
 import monthImg from '../../../images/month.svg';
 import { useState } from 'react';
 
-function FormSection() {
+function FormSection ({currency, setCurrency, payment, setPayment, month, setMonth}) {
     const currencyProps = {'min': 1500000, 'max': 10000000, 'step': 10000};
     const paymentProps = {'min': 10, 'max': 60, 'step': 1};
     const monthProps = {'min': 6, 'max': 120, 'step': 3};
-    const [currency, setCurrency] = useState(3300000);
-    const [payment, setPayment] = useState(10);
-    const [month, setMonth] = useState(60);
+    // const [currency, setCurrency] = useState(3300000);
+    // const [payment, setPayment] = useState(10);
+    // const [month, setMonth] = useState(60);
 
+    //стоимость автомобиля
     const changeCurrency = (event) => {
         setCurrency(event.target.value);
         setBackgroundSize(event);
     };
+
+    //первоначальный взнос
     const changePayment = (event) => {
         setPayment(event.target.value);
         setBackgroundSize(event);
     };
+
+    //срок лизинга
     const changeMonth = (event) => {
         setMonth(event.target.value);
         setBackgroundSize(event);
