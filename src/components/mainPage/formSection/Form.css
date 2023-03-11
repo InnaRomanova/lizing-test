@@ -18,7 +18,6 @@
     justify-content: space-between;
 }
 
-
 .form__currency {
     width: 300px;
     margin: 0 0 0 24px;
@@ -35,12 +34,6 @@
     -moz-appearance: textfield;
     -webkit-appearance: textfield;
     appearance: textfield;
-}
-
-.form__currency::-webkit-outer-spin-button,
-.form__currency::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
 }
 
 .form__currency-image {
@@ -72,8 +65,8 @@
 
 .form__discount {
     display: flex;
-    flex-direction: row;
-    align-items: end;
+    align-items: center;
+    justify-content: end;
     padding: 7px 0 16px 34px;
     width: 35px;
     height: 30px;
@@ -92,12 +85,6 @@
     appearance: textfield;
 }
 
-.form__discount::-webkit-outer-spin-button,
-.form__discount::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
 .form__discount-image {
     margin: 29px 24px 0 146px;
     padding: 0;
@@ -113,36 +100,29 @@
 }
 
 .form__input-slider {
-    margin: 65px 0 0 22px;
-    padding: 0;
-    max-width: 681px;
-    width: 381px;
-    position: absolute;
+    width: 90%;
+    display: block;
+    margin: auto;
+    position: relative;
     height: 2px;
-    background: #FF9514;
     cursor: pointer;
+    transition: linear .1s;
     -webkit-appearance: none;
-    transition: linear .3s;
+    background: #E1E1E1;
+    border-radius: 5px;
+    background-image: linear-gradient(#FF9514, #FF9514);
+    background-repeat: no-repeat
 }
 
 .form__input-slider::-webkit-slider-thumb {
-    appearance: none;
-    width: 20px;
-    /* Set a specific slider handle width */
+    -webkit-appearance: none;
     height: 20px;
-    /* Slider handle height */
-    background: #FF9514;
-    /* Green background */
+    width: 20px;
     border-radius: 50%;
-}
-
-.form__input-slider::-moz-range-thumb {
-    width: 20px;
-    /* Set a specific slider handle width */
-    height: 20px;
-    /* Slider handle height */
-    background: #4CAF50;
-    /* Green background */
+    background: #FF9514;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: .3s ease-in-out;
 }
 
 .form__label {
@@ -183,45 +163,26 @@
     appearance: textfield;
 }
 
-.form__months::-webkit-outer-spin-button,
-.form__months::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-
-
 @media screen and (max-width: 1400px) {
     .form__item {
         width: 427px;
     }
-
     .form__number {
         min-height: 68px;
     }
-
     .form__currency {
         margin-left: 31px;
         max-width: 200px;
     }
-
     .form__currency-image {
         margin-left: 29px;
     }
-
     .form__discount {
         margin: 7px 7px 0;
     }
-
     .form__currency-contribution {
         margin-left: 146px;
     }
-
-    .form__input-slider {
-        max-width: 276px;
-        margin-left: 24px;
-    }
-
     .form__months {
         max-width: 200px;
         margin-left: 32px;
@@ -233,30 +194,24 @@
         width: 100%;
         margin-top: 41px;
     }
-
     .form__list {
         flex-direction: column;
         gap: 37px;
     }
-
     .form__item {
         width: 100%;
     }
-
     .form__number {
         margin-top: 26px;
     }
-
     .form__currency {
         margin-top: 0;
         margin-left: 24px;
         max-width: 696px;
     }
-
     .form__input-slider {
-        max-width: 648px;
+        width: 96%;
     }
-
     .form__months {
         margin-left: 24px;
     }
@@ -266,54 +221,40 @@
     .form__container {
         margin-top: 28px;
     }
-
     .form__list {
         gap: 24px
     }
-
     .form__label {
         font-size: 14px;
         line-height: 136%;
     }
-
     .form__number {
         margin-top: 9px;
         min-height: 60px;
     }
-
     .form__currency {
         width: 100%;
         font-size: 22px;
         line-height: 91%;
         margin-left: 20px;
     }
-
     .form__currency-contribution {
         margin-left: 110px;
     }
-
     .form__currency-image {
         width: 15px;
     }
-
     .form__discount {
         width: 15px;
         margin-top: 5px;
         padding-left: 56px;
         padding-bottom: 14px;
     }
-
-    .form__input-slider {
-        width: 100%;
-        margin-top: 58px;
-    }
-
     .form__months {
         font-size: 22px;
         line-height: 91%;
         margin-left: 21px;
     }
-
     .form__discount-image {
         font-size: 22px;
         line-height: 91%;

@@ -7,7 +7,7 @@ function App() {
     <div className="page">
       <div className="page__content">
       <Routes>
-                        <Route path="/" element={
+                        <Route path="/lizing-test" element={
                             <MainPage />} >
                         </Route>
                         </Routes>
