@@ -104,6 +104,56 @@
     color: #FFFFFF;
 }
 
+.amount__button:hover {
+    background: #111111;
+    cursor: pointer;
+}
+
+.amount__button_active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 426px;
+    height: 68px;
+    background: #FF9514;
+    border-radius: 40px;
+    border: none;
+    margin: 7px 0 0;
+    padding: 0 0 1px 0;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background: #575757;
+    cursor: pointer;
+}
+
+.amount__button_disabled {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 426px;
+    height: 68px;
+    background: #FF9514;
+    border-radius: 40px;
+    border: none;
+    margin: 7px 0 0;
+    padding: 0 0 1px 0;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background: rgba(255, 149, 20, 0.4);
+}
+
 @media screen and (max-width: 1400px) {
     .amount {
         padding-top: 52px;
@@ -160,7 +210,7 @@
         line-height: 91%;
         height: 20px;
         max-width: 100px;
-        
+
     }
 
     .amount__text-money {

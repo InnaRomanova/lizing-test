@@ -7,9 +7,6 @@ function FormSection ({currency, setCurrency, payment, setPayment, month, setMon
     const currencyProps = {'min': 1500000, 'max': 10000000, 'step': 10000};
     const paymentProps = {'min': 10, 'max': 60, 'step': 1};
     const monthProps = {'min': 6, 'max': 120, 'step': 3};
-    // const [currency, setCurrency] = useState(3300000);
-    // const [payment, setPayment] = useState(10);
-    // const [month, setMonth] = useState(60);
 
     //стоимость автомобиля
     const changeCurrency = (event) => {
